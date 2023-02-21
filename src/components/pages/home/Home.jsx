@@ -6,10 +6,13 @@ export const Home = () =>{
     let nombre = "pepito";
     let apellido = "perez";
 
-    return {
+    return (
+
         <>
             <Navbar />
             <MainHome nombre={nombre} apellido= {apellido}/>
         </>
-    };
+    )
+        
+    ;
 };
